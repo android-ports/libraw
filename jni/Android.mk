@@ -20,7 +20,7 @@ $(LIBRAW_PATH)/internal/demosaic_packs.cpp \
 $(LIBRAW_PATH)/src/libraw_datastream.cpp \
 $(LIBRAW_PATH)/src/libraw_cxx.cpp	
 							
-LOCAL_EXPORT_C_INCLUDES	:= $(LIBRAW_PATH)/libraw
+LOCAL_EXPORT_C_INCLUDES	:= $(LIBRAW_PATH)/libraw $(LOCAL_PATH)/
 
 LOCAL_SRC_FILES := $(FILE_LIST)
 
